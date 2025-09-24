@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Painting</title>
+    <style>
+       body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+       }
+       .todos {
+        height: 748px;
+        width: 748px;
+        background-color: #000;
+        display: grid;
+        grid-template-columns: 200px 460px auto;
+        grid-template-rows: 250px 300px 75px 75px;
+        gap: 9px;
+       }
+       .okayg {
+        background-color: #F0F1EC;
+       }
+       .second {
+        background-color: #E72F24;
+        grid-area: 1 / 2 / 3 / 4;
+        border: #000 solid;
+        border-width: 15px 15px 5px 5px;
+       }
+       .fourth {
+        background-color: #004592;
+        grid-row: span 3;
+        border: #000 solid;
+        border-width: 0px 10px 5px 15px;
+       }
+       .fifth {
+        grid-row: span 3;
+       }
+       .seventh {
+        background-color: #F9D01E;
+        border:#000 solid;
+        border-width: 5px 12px 0px 5px;
+       }
+       .sixth {
+        border: #000 solid;
+        border-width: 5px 12px 5px 5px;
+       }
+       .first {
+        border: #000 solid;
+        border-width: 15px 0px 20px 15px;
+       }
+       .third {
+        border: #000 solid;
+        border-width: 0px 5px 10px 15px;
+       }
+    </style>
+</head>
+<body>
+    <div class="todos">
+        <div class="okayg first"></div>
+        <div class="okayg second"></div>
+        <div class="okayg third"></div>
+        <div class="okayg fourth"></div>
+        <div class="okayg fifth"></div>
+        <div class="okayg sixth"></div>
+        <div class="okayg seventh"></div>
+        <div class="okayg eight"></div>
+        <div class="okayg ninth"></div>
+        <div class="okayg eleventh"></div>
+        <div class="okayg twelve"></div>
+        <div class="okayg thirteen"></div>
+    </div>
+</body>
+</html>
